@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commission Request</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <style>
+        /* Basic CSS for the form */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            margin-left: 20px;
+        }
+
+        .nav-links {
+            display: flex;
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .content-section {
+            display: flex;
+        }
+
+          .section-divider {
+            border: none; 
+            height: 2px; 
+            background-color: black; 
+            width: 80%; 
+            margin: 35px auto; 
+        }
+
+          .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: auto;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .footer h4 {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer ul li {
+            margin: 5px 0;
+        }
+
+        .footer ul li a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer ul li a img {
+            margin-right: 5px;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- Header Content (Logo, Navigation) -->
+    </div>
+
+    <div class="header">
+        <div class="logo">
+            [Logo Placeholder]
+        </div>
+        <div class="nav-links">
+            <a href="HW2 - DRAFT.html">Artwork</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Commissions.html">Commissions</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Commission Request Form</h1>
+        <form action="process_commission.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="description">Artwork Description:</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
+
+            <label for="size">Preferred Size:</label>
+            <select id="size" name="size">
+                <option value="small">Small (8x10 inches)</option>
+                <option value="medium">Medium (12x16 inches)</option>
+                <option value="large">Large (18x24 inches)</option>
+                <option value="other">Other (Specify below)</option>
+            </select>
+
+            <label for="other_size">Other Size (if selected above):</label>
+            <input type="text" id="other_size" name="other_size">
+
+            <label for="style">Preferred Style:</label>
+            <input type="text" id="style" name="style">
+
+            <label for="budget">Budget (€):</label>
+            <input type="text" id="budget" name="budget">
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <!-- Footer Content -->
+    </div>
+</body>
+</html>

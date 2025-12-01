@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* Header Styles (Consistent with Home Page) */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            margin-left: 20px;
+        }
+
+        .nav-links {
+            display: flex;
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        /* General Body Styles */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the footer sticks to the bottom */
+        }
+
+        /* Contact Container Styles */
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Center the content horizontally */
+            padding: 20px;
+            margin: 20px;
+        }
+
+        /* Contact Item Styles */
+        .contact-item {
+            width: 45%; /* Adjust as needed */
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            text-align: left; /* Align text to the left */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Visit Us Container */
+        .visit-us-container {
+            display: flex;
+            align-items: center; /* Align items vertically */
+        }
+
+        .visit-us-text {
+            flex: 1; /* Take up remaining space */
+            padding-right: 10px; /* Add some spacing */
+        }
+
+        /* Style for images */
+        .contact-image {
+            width: 100%; /* Make images responsive */
+            max-width: 300px; /* Set a maximum width */
+            height: auto;
+            margin-top: 10px;
+            border-radius: 8px; /* Rounded corners for images */
+        }
+
+        /* Style for Instagram image on the left */
+        .instagram-image-left {
+            order: -1; /* Move image to the left using flex order */
+            margin-right: 10px; /* Add some spacing */
+        }
+
+        /* Footer Styles (Consistent with Home Page) */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto; /* Push the footer to the bottom */
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .footer h4 {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer ul li {
+            margin: 5px 0;
+        }
+
+        .footer ul li a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer ul li a img {
+            margin-right: 5px;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        /* General Styling */
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">
+            [Logo Placeholder]
+        </div>
+        <div class="nav-links">
+            <a href="HW2 - DRAFT.html">Artwork</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Commissions.html">Commissions</a>
+        </div>
+    </div>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <div class="contact-container">
+
+            <div class="contact-item">
+                <h3>Visit Us</h3>
+                <div class="visit-us-container">
+                    <div class="visit-us-text">
+                        <p>Milk Market 7am - 3pm
+                        <br>Farmers Market
+                        <br>Every Saturday 
+                        </p>
+                    </div>
+                    <img src="https://3.bp.blogspot.com/-TaDug4Bo0n0/W1emZMleihI/AAAAAAAERdc/ZYGA4fYwr7UQjjsD1Z9CSJtiANQHe68iwCLcBGAs/s1600/Milk%2BMarket%2B1%252C%2BPatrick%2BComerford%252C%2BLimerick%252C%2B2018.jpg" alt="[Placeholder: Image Alt Text]" class="contact-image">
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <h3>Instagram</h3>
+                <div style="display: flex; align-items: center;">
+                    <img src="https://cdn.mos.cms.futurecdn.net/6dDoc8GV9fYUPExgLYPqqT.jpg" alt="[Placeholder: Instagram Alt Text]" class="contact-image instagram-image-left">
+                    <div>
+                        <p><a href="https://www.instagram.com/fairlyart.kathytiernan/">Instagram Page</a></p>
+                        <p>[Placeholder: Embed Instagram Feed or Link]</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <h3>Call Us</h3>
+                <p>[Placeholder: Phone Number]</p>
+                <p>10am to 6pm
+                <br>Monday to Saturday
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h4>Contact Us</h4>
+        <ul>
+            <li><a href="https://www.instagram.com/fairlyart.kathytiernan/"><img src="data:image/webp;base64,UklGRk4MAABXRUJQVlA4IEIMAADQSQCdASrzAA4BPp1IoEmlpKOhKbO62LATiWlu/Cpt/PfypuggfH3+X7Uv8X/bPTnrL+mHMRiU/Gfvrnu7EfkRqEfkP85/2f5c8DEAL9E/sXnYzKcgDgb6AH8e/wn/L9Pf/y/y3+Z9Mv51/nvYP/m39/9Ln14/tv7H36vf/g3G7enX/mOvb7n+2XP7t0c6+C3Hk+PGyTGNv/gUJUJK44ILVK9BAxTpk5ovlsazs60H0IqHCyEcZEUk8hAkUWWsKyVrEjcFvJu4IeRdL/u4OdfbSs9mqhQ3I6rY7A8lR+QES3v6CQWPoiJZUL6xg59p6wiSwSMCw6GXTQ73HbPN5f/YeBOGyZvYkOcCCqFAlwSm8uxNOWpyXHizwd8cno43e8qkujc53oC/Id70D0neURe6FROtW/NhEJlXQ2cgA2m4wLpdWyn1ACL8Cm6jpToeloq4mzCG9rTi06vJlDDH6fm/6waRqKQ0gQATcAqQpyMLDWwIXB5U4DphTT33714fNZQLU1qFLhoQytAhT9BEEnPeI9jkKTnRD8It97IBUxvH91mj65wldL4dzF5paZXf8wk5wKR3hrHz2nM3ZWNcUGBQ2c2C5RSl9RwowjUiiQCTnDms47OwJdywv0WnYAc/LCqBVawmD4id8eXSjunPgvES+kcqZKG/Fj6IiW7EZvgLAnHaWKLkZMP4/8REwNYMqcmntBClSHnAxXdYN7J23NWMP0ks5xeBI9GcQrVKv4JRjCspEBRq8gNUArpgiq6MH1JRUQOTI48plicYfdWcvCV5mk7PlKb4sAD++bVC4C8EAEKhNNo8Eg7gFnu49B8h/1yn6YM/31Hdc/QzKB3EC0+I9Qqb+y9W50DeSZy5rGhd2gZRiY/m3CZonp89Jccbcw9MLIQSf3j/mVC8/IvQPNaZ7VPvZL3spMrwPFeA4kJ2MND7KBtDoDuWHiYCw36xpZcHXx/UskKn265wOtqTyUG5aRI1c1lOEBSGzMhhHPVuKOIGEnOTEbfvBC3qpdpbwPSovwqz7rbVE9x5Fa0jDj4eB2fLeAPsLMP2tpgNDDSQwR1Pt5TLlU1AsXpeQdz+CvrBxd5K+51DV53Ady2oTXI/qqMN6FIhus+oZy5FiPoAKLmNFLIMtvy37oH3okeIF8D62PkyV91gN5P9UdRajjyHNjfcEcGGNSBR2muAzhatRySIRMEiszQnaJog9Rt8WE5Pu4HcmifZ2QKFnmioQxfQT0JTE+2zkkb0EyR7K/U8jyx8h24HwH7mIhPRlJ1ERYewoJDOG2CIPs5l26ZOcn0PXjg87hQcvFUGEZIXuK8iHlv9ADY0AXCZVNL4bY5wgV53Q4dnKvv+L71fYwnEpp64WTy1a5OyDzzoHDGdI8v0sSyNKmW8c0fzEsw+LSrVSMDut4eRfn8cmkUg8MiqVx6B8KJse+hRxDdc9ebMAu5R/vfdjwv4EfUfAkwkFDqGBJjxcKwdeL+h88cJfvFH6RKic2sfkaEPhMAvWAAonm4CJ+DWL69VHwgq2aHsaCVJUwAwws57C2lyXx9/6p98bfFAC/u8vE4aLRBHzsTec5dcwv843uytC+rRKAjTSpW5rJRXnSAqathjPp5sSA+cFyBIioPxwdcZlv8Uom/Q6/zvFke8IhvBsgmwWeHEdOIXsLsshKAOA9wLv00DZLmLIq1wG9jqy7fNop/fTaDn6zyYU05zfi36vq4Y0rryFBB6NjpvrA1qc18dz+QacTdHwNibTkssLiaAgvFFyDaiatIwGuHM/0Q2DFSlcZweYFhMMaS2nt4PtgKorYrjUGkMvvoVtqRoLkHnJWxE3gUkjg+z0cRdAzKA25FcN8v7sIXeUPqC01pGjdmgxq2iV/f2732TWhdpANrDli47gNTBjlNVjUKjV5CTtbGWJIr3trnH//B6Zw1nqfrHDXdZFjBvpcgfb1k5FuZ6pfRsOx8mj1JCxLTP7PIm3XfKRDpCQQR2p8oNKa62Dv5toASMZJieyi6dyZ9fhx3/DWXP4onQz3io03hQs+oIADxKR3Y/yIPv2+b4wP/ksvkFXO0PJW01qZzMPJE/aU8V87NCh5GfrLu+reZHiPOxlxB6U0wqIuHq230O/Tgvjg3NIumsk8cAXbMWuaesH9mlBFyIBvyyGeizSQBjT5AOXDUNrh8reyC7x8Q9LKAgoQKs3aASJRN5pi8uUX/vd4bUYzlT43bJOQTprdNsWdmqN05TQRn+IBlILnWWN3twEtz7XPwSrZjTJJqePv8HmgKtGQ8Bs24t54t68z2xPKXYLoHgwcFu6bFvXp7ZhL2vWPZIJrjhWqv3HZhhUj5pchX+tHvuWOJqizvo1vqBwsQHgCcL0Y1cp5IN3xMN47TTf3shAP7R3Te94A6aqR5z9U2hrr+nKY7efP1qA0uWhpvl9McRNBeBaXVgeiY9da4Q43I1I1H1Cebk3RGsE+IYorjtgxlppOf3J/I77p5ta0Pey7H3fI+o8p2FZfkl/Te/SJJq9x52MddCIRrYn6G5DgHOegachVTWWJ1KIMx5WpIfNfKtNsMLPhJAppoGIwCG1Gli6NVPPrmBwMrBHEp3ae7jWEMP0j6S2G1EbuEd4Stx3Ba5iS28MbACYq+XeMZudNVdIcjcxa2DpHtcEGJWOh10Z6BZGqNWvZ1WkT4AUKVG+u61B+DbPKdpmZeUaEt/+RRP4zgQC0OMYxYLD7DHik4JAXImHzCCDN1Ua3KVQ7x3V+caPc/JrqUtbODEF52wPsE1ykvS2aqiN4gm7WRnWlTPLjz4hrmF14E122oCfOaegxx4XXy5QNrpD10NZRHGNghW3GefOeXBocwQUcrRkAkxnGWK7MARt+8odjNFx8WXyWomoZZiARppUrah0EycFBrSxyrgjfi27a1LqFsP+kdUDztC5fk1I8YSsKoWnRWg8cdJKMasHwsw98bhQGweNNSloEap+b/iqJLXI3kOzhMaU45pJzyxWGf4gGUd1asiIj9JjXCMZTK/8QtgvwD3Z8gp6nPbIk7CuZcxHC2gYP3kX1s9qMVFsWLTMI856Wx5PIhTI50FgLDaiPj2pHpjfE5rSsoTwoydvxyurk27Aflser6zBsSS6b9A2xVS2u1zjgAfsmqp/t4sdc10CdurTmtfJIoNZhrp4HOOzLiT03D6DYBhwglDJqBfDViYp/Lt9l6yJzzV0DbgHtNykkG9KOJyzMyGh9onVZ/sWprIP6+w1Xp6uwqRA+RfP98BeuPkKpakFoEB4j+CRT1rO+zLHw9s70dZ7EvPWIEwK9rnf+Uk/mckrMJk9z6niJfdDyhoocBXGWgqGECrc3/TmstsvaXhXsW0oxKvDdi4vwcfcnew95Ko9kjtYwsg4KrwKQ43T8pfEmkA+RndFHoMEdTbwxZn5Ip5RSItoMVxfaqHk76P+dbAbl523OyBKehCiJBx+3FsKEnkp6qa05B/aRpQIOURwNWR6Ll+ViR8e45lGA/5kixRx8cCrugdvs7t2ykjgeh9vYbOSe57xvWqE/k6m/hQDD6i0VJrE1VK3s7dTORrA30gNzEn5gXyEQeOF3TzJouGdDTl2lvNMRV3FcxQQ9md5Z23aTV77MgQdN7O0/hlrxV8nrnyOpvXoy0RMNR35iGCVyTQA2vZUhMsXUsKFxcIEvFHztb+uxmatR8hxM0/CrsxpvW0B8atvTW7SeV3IKciCik2byOjdqzA1YQAjv5DiPOhEjEa1mCAbkWC1BloKSyVjim2LnuKru5wwf34RnCjSY20ZjP+n5ksEKPAylSxHFatd2b0n6TLN1MLruFkmc16O+rLGV2l4Uiqo1UJ+mYWYDj+dbT2xOZuOaxGN3Cti1dYwtudYtRsCtn1E9/UbZpHpmFQtJQuSLw+93aTkbeUTFSZlRBQZ/k6H7lCSkK6P6gd1ivQ5aqXlC/CFJzIVAeCDSlgj7jBHt105peyBW9tZeoKgMD+SRwKSvTDe/oi8C9AChUFbELIhF2b0ViVgCjX/Urj2pOMs61BcCslzR9KAqaTRcO+M+Sqgiji8dqoekaNCpWmtdgp7G4qPVYsHxBKnAr1aeThwDOINps3NObGi8qW7ga56sz1R2jBtWmID+jkIke0ErXJGwWUOnDIq7W6xb904/rE9YKKTleXujlJakWMd1egZKx2ZddtpJWwzJ1YGr8kmzBQAAA=" alt="Social Media 1">Instagram</a></li>
+            <li><a href="https://www.facebook.com/Fairlyart.kathytiernan"><img src="https://tse1.mm.bing.net/th/id/OIP.g8oGbyvNBF5oRYTmy-kfpwHaHa?w=200&h=200&c=7&r=0&o=7&cb=ucfimgc2&dpr=1.5&pid=1.7&rm=3" alt="Social Media 2">Facebook</a></li>
+            <li><a href="#"><img src="https://toppng.com/uploads/preview/phone-icon-black-11549498509acfenofjly.png" alt="Social Media 3">Mobile: 086 0778787 </a></li>
+            <li><a href="#"><img src="placeholder-icon1.png" alt="Placeholder 1">Placeholder 1</a></li>
+            <li><a href="#"><img src="placeholder-icon2.png" alt="Placeholder 2">Placeholder 2</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>

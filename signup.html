@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('https://th.bing.com/th/id/R.23d12ee86e9bc5580cdb5fad6efa2352?rik=z3np8AVCshN3fg&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f5ff573e14c771f39d6a99592%2ft%2f600c487f5e998e7830f2f6ce%2f1611685587579%2fKathy%2blogo%2breduced.jpg%3fformat%3d1500w&ehk=%2fVLgz5WOHMrT1OV2%2bxWy23i42PFlO4rYF345vcnkJhg%3d&risl=&pid=ImgRaw&r=0');
+            background-size: auto 100%;
+            background-blend-mode: overlay;
+        }
+
+        .signup-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-group input[type="checkbox"] {
+            width: auto;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .button-container a, .button-container button {
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button-container a:hover, .button-container button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+            <div class="form-group">
+                <label for="promotional_adds">
+                    <input type="checkbox" id="promotional_adds" name="promotional_adds">
+                    Subscribe to promotional emails
+                </label>
+            </div>
+            <div class="button-container">
+                <a href="HW2 - DRAFT.html" class="submit">Submit</a>
+                <button type="reset">Clear</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
