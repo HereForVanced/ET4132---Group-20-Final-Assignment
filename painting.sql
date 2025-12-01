@@ -61,11 +61,12 @@ CREATE TABLE submissions (
     FOREIGN KEY (painting_id) REFERENCES paintings(painting_id)
 );
 INSERT INTO submissions (submission_id, painting_id, submission_date, ) VALUES
-(2001, 1121, '2023-01-15', ),
-(2002, 1122, '2023-02-10', ),
-(2003, 1123, '2023-03-05', ),
-(2004, 1124, '2023-04-21', ),
-(2005, 1125, '2023-05-30', );
+(2001, 1121, '2023-01-15' ),
+(2002, 1122, '2023-02-10' ),
+(2003, 1123, '2023-03-05' ),
+(2004, 1124, '2023-04-21' ),
+(2005, 1125, '2023-05-30' );
+
 
 
 
