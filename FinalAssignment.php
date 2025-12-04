@@ -160,3 +160,4 @@ echo "<strong>All tables created and data inserted successfully!</strong>";
 
 $conn->close();
 ?>
+
